@@ -1,0 +1,23 @@
+version: "3"
+services:
+  db:
+    image: mongo
+    environment:
+      - MONGODB_DBNAME=tok_stok_mongo
+    volumes:
+      - ./data:/data/db
+    ports:
+      - "27017:27017"
+  app:
+    container_name: tok_stok_test_api
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+    build: .
+    command: yarn run dev
+    ports:
+      - "3000:3000"
+    links:
+      - db
+    depends_on:
+      - db
