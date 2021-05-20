@@ -9,7 +9,6 @@ Teste técnico para desenvolvedor back end no projeto da Tok&amp;Stok
   - [Playground](#playground)
   - [Escopo mínimo](#escopo-mínimo)
   - [Diferencial](#diferencial)
-  - [Outras melhorias](#outras-melhorias)
 
 ---
 ### Sobre
@@ -20,17 +19,19 @@ Teste técnico para desenvolvedor back end no projeto da Tok&amp;Stok
 
 ### Tecnologias
 
-- Linguagem: TypeScript
-- Runtime: Node
-- Framework Web: Next
-- Servidor GraphQL: Apollo Server
-- Banco de Dados: MongoDB
-- ODM: Mongoose
-- Linter: ESLint
-- Formatter: Prettier
-- CI/CD: GitHub Actions
-- DBaaS: MongoDB Atlas
-- PaaS: Heroku
+- Linguagem: **TypeScript**
+- Runtime: **Node**
+- Gerenciador de Pacotes: **Yarn**
+- Banco de Dados: **MongoDB**
+- ODM: **Mongoose**
+- Framework Web: **Next**
+- Servidor GraphQL: **Apollo Server**
+- Testes: **Jest**
+- Linter: **ESLint**
+- Formatter: **Prettier**
+- CI/CD: **GitHub Actions**
+- DBaaS: **MongoDB Atlas**
+- PaaS: **Heroku**
 
 ---
 
@@ -82,7 +83,7 @@ Acesse o GraphQL Playground:
 
 ---
 ### Diferencial
-- [ ] Conter testes unitários é um diferencial.
+- [X] Conter testes unitários é um diferencial.
 - [X] Usar conteinerização com Docker é um diferencial.
 - [X] Implementar CI/CD (com GitHub Actions, Travis CI e similares) é um diferencial.
 
