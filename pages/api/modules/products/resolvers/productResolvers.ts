@@ -11,7 +11,7 @@ function create(_: unknown, args: any): Promise<{ product: IProduct }> {
   return createProduct({ name, price, images });
 }
 
-function list(_: unknown, args: any): Promise<{ products: IProduct[] }> {
+function list(): Promise<{ products: IProduct[] }> {
   return listProducts();
 }
 

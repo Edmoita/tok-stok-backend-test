@@ -12,7 +12,7 @@ function create(_: unknown, args: any): Promise<{ showcase: IShowcase }> {
   return createShowcase({ name, productsIds, discountPercentage });
 }
 
-function list(_: unknown, args: any): Promise<{ showcases: IShowcase[] }> {
+function list(): Promise<{ showcases: IShowcase[] }> {
   return listShowcases();
 }
 
