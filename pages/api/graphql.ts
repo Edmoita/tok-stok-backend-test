@@ -13,6 +13,8 @@ const apolloServer = new ApolloServer({
       productsLoader: getProductsDataLoader(),
     },
   }),
+  playground: true,
+  introspection: true,
 });
 
 export const config = {
