@@ -58,13 +58,13 @@ Teste técnico para desenvolvedor back end no projeto da Tok&amp;Stok
     $ docker-compose up
 
     # Para executar os testes, faça
-    $ docker exec tok-stok-backend-test yarn test
+    $ docker exec tok_stok_test_api yarn test
 ```
 ---
 ### Playground
 Acesse o GraphQL Playground:
 - Development: [http://localhost:3000/api/graphql](http://localhost:3000/api/graphql)
-- Production: [https://tok-stok-api.herokuapp.com/api/graphql](https://tok-stok-api.herokuapp.com/)
+- Production: [https://tok-stok-api.herokuapp.com/api/graphql](https://tok-stok-api.herokuapp.com/api/graphql)
 
 
 ---
